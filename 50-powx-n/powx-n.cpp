@@ -1,7 +1,7 @@
 class Solution {
 public:
     double myPow(double x, int n) {
-        long long N = n;  // To safely handle INT_MIN
+        double N = n;  // To safely handle INT_MIN
 
         if (N < 0) {
             x = 1 / x;
