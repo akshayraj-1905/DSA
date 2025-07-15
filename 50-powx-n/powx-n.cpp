@@ -1,6 +1,6 @@
 class Solution {
 private:
-    double power(double x, long long n) {
+    double power(double x, long long n) { // to avoid overflow while doing N = -N range of int ( -2,147,483,648 to 2,147,483,647)
         if (n == 0)
             return 1;
 
